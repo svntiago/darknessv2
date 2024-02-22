@@ -37,19 +37,6 @@
     <title>Estación Darkness - BAR</title>
 </head>
 <body>
-<!--   <div class="logo">
-    <a href="index.html">
-        <img src="assets/logo.png" alt="logo" style="max-width: 80vw; height: auto;" />
-    </a>
-</div>
-<div class="direccion">
-    <h4>
-
-    </h4><br>
-    <h4 style="font-size: 1rem; color:grey;">
-        *Los pagos con tarjeta de crédito tienen 10% de recargo.
-    </h4>
-</div> !-->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="direccion">
                     *Los pagos con tarjeta de crédito tienen 10% de recargo.
@@ -62,20 +49,20 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link" href="index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CARTAS</a>
+                            <a class="nav-link active" aria-current="page" href="cartas.html">CARTAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PROMOS</a>
+                            <a class="nav-link" href="promociones.html">PROMOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">HAPPY HOURS</a>
+                            <a class="nav-link" href="happy-hours.html">HAPPY HOURS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">RECIBIDAS</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="recibidas.html">RECIBIDAS</a>
+                        </li> -->
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li> -->
@@ -83,50 +70,117 @@
                 </div>
             </div>
         </nav>
-    <section>
+<section>
 
-        <h1>¿Qué carta querés ver?</h1>
-        <div id="inicio">
+    <h1>¿Qué carta querés ver?</h1>
+    <div id="inicio">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col"><a href="https://drive.google.com/file/d/1Ilq8OKZhjIivtfZ4lVQgF2jFDfQ6oJwW/view" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/bbar.png);background-size:cover;background-position:0;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Carta del bar</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/menu.png" alt="menu" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <small>COMIDAS Y BEBIDAS</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div></a>
+            </div>
 
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Carta del bar
-                        </button>
-                    </h4>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                        <div class="accordion-body">
-                            <iframe src="https://drive.google.com/file/d/1Ilq8OKZhjIivtfZ4lVQgF2jFDfQ6oJwW/preview" width="100%" height="100%" allow="autoplay"></iframe></div>
+            <div class="col"><a href="https://drive.google.com/file/d/1FTI8zLx0OXzxyP0dC8TGhPiRUPRamfqd/view" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/bcafeteria.png);background-size:cover;background-position:0;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Carta de cafetería</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/cafe.png" alt="cafeteria" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <small>MERIENDAS Y CAFÉ</small>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Carta de cafetería
-                        </button>
-                    </h4>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <iframe src="https://drive.google.com/file/d/1FTI8zLx0OXzxyP0dC8TGhPiRUPRamfqd/preview" width="100%" height="100%" allow="autoplay"></iframe>
-                        </div>
+                </div></a>
+            </div>
+
+            <div class="col"><a href="https://drive.google.com/file/d/1icZMnSpOLYh_P-uJ-x7FAHIj3Pt8v2UZ/view" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/bboliche.png);background-size:cover;background-position:0;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Carta de boliche</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/boliche.png" alt="boliche" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <small>BOTELLAS Y TRAGOS</small>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Carta de boliche
-                        </button>
-                    </h4>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <iframe src="https://drive.google.com/file/d/1icZMnSpOLYh_P-uJ-x7FAHIj3Pt8v2UZ/preview" width="100%" height="100%" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
+                </div></a>
             </div>
         </div>
-    </section>
+
+
+    </div>
+   <h1>Links útiles</h1>
+    <div id="inicio">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col"><a href="https://www.rappi.com.ar/restaurantes/209826-estacion-darkness" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/brappi.png);background-size:cover;background-position:0;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Delivery</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/rappi.png" alt="rappi" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                <small>PEDÍ DESDE ACÁ</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="col"><a href="https://wa.me/3513875877" target="_blank">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/breserva.png);background-size:cover;background-position:0 30%;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Reservas</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/reserva.png" alt="reservas" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                <small>HACÉ TU RESERVA DESDE ACÁ</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div></a>
+            </div>
+
+            <div class="col"><a href="curriculums.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image:url(assets/bcv.png);background-size:cover;background-position:0 70%;">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Trabajá con nosotros</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="assets/cv.png" alt="cv" width="24" height="24">
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                <small>ENVÍA TU CURRICULUM DESDE ACÁ</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+      </section>
 <a href="https://wa.me/3513875877" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 <!--   <div class="powered">
     <a class="linkdecode" href="https://wa.me/3517881363" target="_blank"><button class="decode"></button></a>
@@ -137,7 +191,7 @@
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Cartas</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Promos</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Happy Hours</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recibidas</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recibidas</a></li>-->
     </ul>
     <p class="text-center text-body-secondary">
         <a href="https://goo.gl/maps/R8P38DC32coJ6L977"><i class="fa fa-map-marker" aria-hidden="true"></i>
