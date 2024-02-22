@@ -701,6 +701,18 @@ progress {
     }
 }
 
+@media (max-width: 1199px) and (min-width: 1000px) {
+    .display-6 {
+        font-size: 1.7rem
+    }
+}
+
+@media (max-width: 999px) {
+    .display-6 {
+        font-size: 1.7rem
+    }
+}
+
 .list-unstyled {
     padding-left: 0;
     list-style: none
@@ -12634,3 +12646,5 @@ fieldset:disabled .btn {
         display: none!important
     }
 }
+
+/*# sourceMappingURL=bootstrap.min.css.map */
