@@ -348,9 +348,9 @@ strong {
     font-weight: bolder
 }
 
-.small,
-small {
-    font-size: .875em
+.small, small {
+    font-size: .875em;
+    text-align: right;
 }
 
 .mark,
@@ -690,7 +690,7 @@ progress {
 }
 
 .display-6 {
-    font-size: calc(1.rem + 1vw);
+    font-size: calc(1rem + 5vw);
     font-weight: 300;
     line-height: 1.2
 }
