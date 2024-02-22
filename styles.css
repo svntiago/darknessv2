@@ -517,11 +517,11 @@ a.linkdecode:hover {
     }
     .loguito {
       max-width:35vw;
-       margin-left: 3%;
+      margin-left: 3%;
       padding:5%;
     }
     section {
-        padding: 10vh 5vw;
+        padding: 12vh 5vw;
     }
     .direccion {
         font-size: small;
