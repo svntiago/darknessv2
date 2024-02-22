@@ -690,14 +690,14 @@ progress {
 }
 
 .display-6 {
-    font-size: calc(1.375rem + 1.5vw);
+    font-size: calc(1.rem + 1vw);
     font-weight: 300;
     line-height: 1.2
 }
 
 @media (min-width:1200px) {
     .display-6 {
-        font-size: 2.5rem
+        font-size: 2.1rem
     }
 }
 
@@ -9009,7 +9009,7 @@ fieldset:disabled .btn {
 }
 
 .lh-1 {
-    line-height: 1rem!important
+    line-height: 2rem!important
 }
 
 .lh-sm {
